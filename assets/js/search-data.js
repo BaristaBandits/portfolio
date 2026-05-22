@@ -501,11 +501,11 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/portfolio/teachings/ee2003/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+            },},{id: "teachings-statistics-for-electrical-engineers-ee3111",
+          title: 'Statistics for Electrical Engineers (EE3111)',
+          description: "",
           section: "Teachings",handler: () => {
-              window.location.href = "/portfolio/teachings/introduction-to-machine-learning/";
+              window.location.href = "/portfolio/teachings/ee3111/";
             },},{
         id: 'social-cv',
         title: 'CV',
