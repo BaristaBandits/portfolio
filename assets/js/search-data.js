@@ -496,16 +496,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/9_project/";
+            },},{id: "teachings-computer-organization-ee2003",
+          title: 'Computer Organization (EE2003)',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/portfolio/teachings/ee2003/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/portfolio/teachings/introduction-to-machine-learning/";
-            },},{id: "teachings-teaching",
-          title: 'Teaching',
-          description: "Courses for which I have served as a Teaching Assistant.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/portfolio/teachings/teaching/";
             },},{
         id: 'social-cv',
         title: 'CV',
