@@ -1,81 +1,43 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Bachelor's Thesis
+description: Semantic Smoothing for Language Models via Distribution Estimation and Embeddings
+img: assets/img/llm-project.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was completed as my Bachelor's Thesis at IIT Madras under the guidance of Prof. Andrew Thangaraj.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The thesis explores *semantic smoothing* techniques for language models using probabilistic distribution estimation and embedding-aware methods. The work studies how semantic relationships between tokens can be incorporated into classical smoothing frameworks to improve generalization and prediction quality in language models.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project combines ideas from:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Information Theory
+- Natural Language Processing
+- Statistical Language Modeling
+- Representation Learning
+- Large Language Models
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Abstract
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Traditional language modeling methods rely heavily on frequency-based smoothing techniques that often fail to capture semantic relationships between words and tokens. This work introduces semantic smoothing approaches that leverage embedding representations and distribution estimation to better model linguistic structure and improve predictive performance.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Paper
 
-{% raw %}
+> **Semantic Smoothing for Language Models via Distribution Estimation and Embeddings**  
+> Haricharan Balasundaram, Swathi Shree Narashiman, Pranay Mathur, Andrew Thangaraj (2026)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- <a href="https://arxiv.org/abs/2605.07994" target="_blank">arXiv Paper</a>
+- <a href="/assets/pdf/bachelor_thesis_report.pdf" target="_blank">Thesis Report</a>
+- <a href="/assets/pdf/bachelor_thesis_presentation.pdf" target="_blank">Presentation Slides</a>
 
-{% endraw %}
+### Highlights
+
+- Developed embedding-aware semantic smoothing techniques
+- Explored distribution estimation for language modeling
+- Investigated semantic similarity in probabilistic token prediction
+- Evaluated methods on language modeling benchmarks
+
+This work is also listed in the publications section of the website.
