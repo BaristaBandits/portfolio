@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://BaristaBandits.github.io/sitemap.xml
+Sitemap: https://BaristaBandits.github.io/portfolio/sitemap.xml
