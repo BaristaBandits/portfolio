@@ -421,9 +421,9 @@ ninja.data = [{
           description: "Semantic Smoothing for Language Models via Distribution Estimation and Embeddings",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-in-context-learning-with-induction-heads",
+          title: 'In-Context Learning with Induction Heads',
+          description: "Research internship at EPFL on mechanistic interpretability and in-context learning in transformers.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
