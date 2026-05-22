@@ -426,9 +426,9 @@ ninja.data = [{
           description: "Research internship at EPFL on mechanistic interpretability and in-context learning in transformers.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-adversarial-attacks-on-large-language-models",
+          title: 'Adversarial Attacks on Large Language Models',
+          description: "Undergraduate research project studying hallucinations, adversarial perturbations, and error propagation in LLMs.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
             },},{id: "projects-project-4",
