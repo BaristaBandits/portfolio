@@ -30,8 +30,13 @@ Traditional language modeling methods rely heavily on frequency-based smoothing 
 > Haricharan Balasundaram, Swathi Shree Narashiman, Pranay Mathur, Andrew Thangaraj (2026)
 
 - <a href="https://arxiv.org/abs/2605.07994" target="_blank">arXiv Paper</a>
-- <a href="assets/pdf/bachelor_thesis_report.pdf" target="_blank">Thesis Report</a>
-- <a href="assets/pdf/bachelor_thesis_presentation.pdf" target="_blank">Presentation Slides</a>
+- <a href="{{ '/assets/pdf/bachelor_thesis_report.pdf' | relative_url }}" target="_blank">
+  Thesis Report
+</a>
+
+- <a href="{{ '/assets/pdf/bachelor_thesis_presentation.pdf' | relative_url }}" target="_blank">
+  Presentation Slides
+</a>
 
 ### Highlights
 
