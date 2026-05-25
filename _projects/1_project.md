@@ -33,7 +33,6 @@ Traditional language modeling methods rely heavily on frequency-based smoothing 
 - <a href="{{ '/assets/pdf/bachelor_thesis_report.pdf' | relative_url }}" target="_blank">
   Thesis Report
 </a>
-
 - <a href="{{ '/assets/pdf/bachelor_thesis_presentation.pdf' | relative_url }}" target="_blank">
   Presentation Slides
 </a>
