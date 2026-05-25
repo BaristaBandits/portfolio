@@ -35,7 +35,7 @@ The research combined ideas from:
 
 ### Resources
 
-- <a href="{{ '/assets/pdf/presentation_slides.pdf' | relative_url }}" target="_blank">Presentation Slides</a>
+- <a href="{{ '/assets/pdf/presentation.pdf' | relative_url }}" target="_blank">Presentation Slides</a>
 
 ### Internship
 
