@@ -405,13 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/portfolio/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/portfolio/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-bmvc-paper-accepted-3d-radar-reconstruction",
+          title: 'BMVC paper accepted: 3D Radar reconstruction',
           description: "",
           section: "News",},{id: "news-icml-paper-accepted-induction-heads-interpolate-n-grams",
           title: 'ICML Paper Accepted : Induction Heads Interpolate N-grams',
