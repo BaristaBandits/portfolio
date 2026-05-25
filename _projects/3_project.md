@@ -2,7 +2,7 @@
 layout: page
 title: Adversarial Attacks on Large Language Models
 description: Undergraduate research project studying hallucinations, adversarial perturbations, and error propagation in LLMs.
-img: assets/img/llm-attacks.jpg
+img: assets/img/3_proj.png
 importance: 2
 category: research
 related_publications: false
@@ -33,7 +33,7 @@ This framing enables the study of hallucinations through concepts inspired by:
 
 ### Project Report
 
-- <a href="/assets/pdf/project_report.pdf" target="_blank">Project Report</a>
+- <a href="{{ '/assets/pdf/project_report.pdf' | relative_url }}" target="_blank">Project Report</a>
 
 ### Research Areas
 
