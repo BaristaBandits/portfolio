@@ -2,7 +2,7 @@
 layout: page
 title: Bachelor's Thesis
 description: Semantic Smoothing for Language Models via Distribution Estimation and Embeddings
-img: assets/img/llm-project.jpg
+img: assets/img/1_proj.jpg
 importance: 1
 category: research
 related_publications: true
