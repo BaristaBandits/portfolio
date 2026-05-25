@@ -405,14 +405,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/portfolio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-bmvc-paper-accepted-3d-radar-reconstruction",
+            },},{id: "news-bmvc-paper-accepted-3d-radar-reconstruction",
           title: 'BMVC paper accepted: 3D Radar reconstruction',
           description: "",
           section: "News",},{id: "news-icml-paper-accepted-induction-heads-interpolate-n-grams",
           title: 'ICML Paper Accepted : Induction Heads Interpolate N-grams',
+          description: "",
+          section: "News",},{id: "news-joinining-fujitsu-ai-research-lab-for-summer-internship",
+          title: 'Joinining Fujitsu AI research lab for Summer internship !',
           description: "",
           section: "News",},{id: "projects-bachelor-39-s-thesis",
           title: 'Bachelor&amp;#39;s Thesis',
