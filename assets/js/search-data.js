@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum Vitae of Swathi Shree Narashiman.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/portfolio/cv/";
