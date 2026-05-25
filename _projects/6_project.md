@@ -1,80 +1,45 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: RFconstruct
+description: 3D Shape Reconstruction using Commercial mmWave Radars
+img: assets/img/6_proj.png
+importance: 6
+category: research
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was conducted during my Summer@EPFL research internship at the SENS Lab, EPFL under the guidance of Prof. Haitham Al Hassanieh.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+RFconstruct is a framework for 3D shape reconstruction in autonomous driving scenarios using commercial off-the-shelf (COTS) mmWave radars. The work addresses the fundamental limitations of radar sensing — including low angular resolution, sparsity, and specularity — through a combination of hardware-aware sensing, temporal fusion, and machine learning.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The framework reconstructs dense 3D object shapes of cars, bikes, and pedestrians using radar-only sensing without requiring object bounding boxes.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The project combines ideas from:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Autonomous Driving
+- Radar Signal Processing
+- 3D Computer Vision
+- Deep Learning
+- Sensor Fusion
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Abstract
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+This work presents RFconstruct, a framework for 3D shape reconstruction using commercial off-the-shelf mmWave radars in self-driving scenarios. RFconstruct overcomes radar limitations such as low angular resolution, specularity, and sparse point clouds through a holistic system design spanning hardware, data processing, and machine learning. The system first fuses radar data captured from orthogonal sensing planes and performs odometry-aware temporal fusion to generate denser 3D point clouds. A customized encoder-decoder architecture is then used for object shape reconstruction without requiring prior knowledge of object bounding boxes. Experimental results demonstrate accurate reconstruction of cars, bikes, and pedestrians when compared against LiDAR-assisted depth camera ground truth.
 
-{% raw %}
+### Paper
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+> **RFconstruct: 3D Shape Reconstruction using Commercial mmWave Radars**  
+> S. Hussein, J. Guan, Swathi Shree Narashiman, et al. (2025)
 
-{% endraw %}
+Accepted at the **British Machine Vision Conference (BMVC 2025), Sheffield, United Kingdom**.
+
+- <a href="https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_399/paper.pdf" target="_blank">BMVC 2025 Paper</a>
+
+### Highlights
+
+- Developed a radar-only 3D reconstruction framework for autonomous driving
+- Performed orthogonal radar fusion for improved spatial coverage
+- Introduced odometry-aware temporal fusion for dense point cloud generation
+- Designed a customized encoder-decoder reconstruction architecture
+- Achieved accurate reconstruction of cars, bikes, and pedestrians
+- Evaluated against LiDAR-assisted depth camera ground truth
