@@ -436,9 +436,9 @@ ninja.data = [{
           description: "Neural Network-Enhanced Lossless Text Compression",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-genre-steering-for-music-generation",
+          title: 'Genre Steering for Music Generation',
+          description: "Fine-grained Control over Music Generation with Activation Steering",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/5_project/";
             },},{id: "projects-project-6",
