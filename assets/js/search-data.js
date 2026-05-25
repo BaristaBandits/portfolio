@@ -431,9 +431,9 @@ ninja.data = [{
           description: "Undergraduate research project studying hallucinations, adversarial perturbations, and error propagation in LLMs.",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-alphazip",
+          title: 'AlphaZip',
+          description: "Neural Network-Enhanced Lossless Text Compression",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/4_project/";
             },},{id: "projects-project-5",
