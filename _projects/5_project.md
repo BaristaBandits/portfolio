@@ -1,80 +1,43 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Genre Steering for Music Generation
+description: Fine-grained Control over Music Generation with Activation Steering
+img: assets/img/5_proj.png
+importance: 5
+category: research
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was developed as part of research at the AI Club, IIT Madras.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The work introduces inference-time activation steering methods for controllable music generation using MusicGen, an autoregressive generative music transformer. The approach enables fine-grained control over generated audio through interventions in the residual stream and attention activations.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project focuses on controllable generation tasks such as timbre transfer, style transfer, and genre fusion while preserving coherence with text-conditioned prompts.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The project combines ideas from:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Generative AI
+- Music Generation
+- Mechanistic Interpretability
+- Representation Learning
+- Transformer Models
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Abstract
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+We present a method for fine-grained control over music generation through inference-time interventions on MusicGen. Our approach enables timbre transfer, style transfer, and genre fusion by steering the residual stream using linear probes trained on internal activations, or by steering attention layer activations similarly. We observe that modeling steering as a regression task improves performance, suggesting that mean-squared-error objectives better preserve meaningful directional information in activation space. Combined with MusicGen’s text conditioning, the method provides both global and local control over generated music.
 
-{% raw %}
+### Paper
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+> **Fine-grained Control over Music Generation with Activation Steering**  
+> D. Panda, Swathi Shree Narashiman, J. K. Joe, et al. (2025)
 
-{% endraw %}
+- <a href="https://arxiv.org/abs/2506.10225" target="_blank">arXiv Paper</a>
+- <a href="https://controllable-genre-fusion.github.io/" target="_blank">Demo Page</a>
+
+### Highlights
+
+- Developed activation steering methods for controllable music generation
+- Enabled genre fusion, timbre transfer, and style transfer
+- Performed inference-time interventions on MusicGen activations
+- Explored residual stream and attention-layer steering
+- Achieved fine-grained local and global control in generated music
