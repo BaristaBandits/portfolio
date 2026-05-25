@@ -2,7 +2,7 @@
 layout: page
 title: In-Context Learning with Induction Heads
 description: Research internship at EPFL on mechanistic interpretability and in-context learning in transformers.
-img: assets/img/icml-project.jpg
+img: assets/img/2_proj.png
 importance: 2
 category: research
 related_publications: true
