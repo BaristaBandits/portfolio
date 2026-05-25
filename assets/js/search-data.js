@@ -441,9 +441,9 @@ ninja.data = [{
           description: "Fine-grained Control over Music Generation with Activation Steering",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-rfconstruct",
+          title: 'RFconstruct',
+          description: "3D Shape Reconstruction using Commercial mmWave Radars",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/6_project/";
             },},{id: "projects-project-7",
