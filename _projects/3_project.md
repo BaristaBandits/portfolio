@@ -9,7 +9,7 @@ related_publications: false
 giscus_comments: false
 ---
 
-This undergraduate research project explores hallucinations and adversarial vulnerabilities in large language models (LLMs) through the lens of interpretability, robustness, and information theory.
+This undergraduate research project explores hallucinations and adversarial vulnerabilities in large language models (LLMs) through the lens of interpretability, robustness, and information theory. The work was done under Prof. Nambi Seshadri and co-advised by Prof. Srikrishna Bhashyam
 
 Hallucinations in LLMs refer to outputs that are fabricated, factually incorrect, or unsupported by existing knowledge. While prior work has largely focused on defining metrics to detect hallucinations, this project investigates the *internal mechanisms* that lead to such behaviors by analyzing the response of white-box transformer models to adversarial perturbations applied directly in logit space.
 
