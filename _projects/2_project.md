@@ -35,8 +35,7 @@ The research combined ideas from:
 
 ### Resources
 
-- <a href="/assets/pdf/icml2026_paper.pdf" target="_blank">Paper</a>
-- <a href="/assets/pdf/presentation_slides.pdf" target="_blank">Presentation Slides</a>
+- <a href="{{ '/assets/pdf/presentation_slides.pdf' | relative_url }}" target="_blank">Presentation Slides</a>
 
 ### Internship
 
