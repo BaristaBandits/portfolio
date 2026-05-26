@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Swathi Shree Narashiman
+title: about
 permalink: /
 subtitle: MS Electrical Engineering at Stanford • B.Tech EE at IIT Madras • Machine Learning • Information Theory • Optimization
 
