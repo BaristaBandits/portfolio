@@ -37,12 +37,12 @@ Worked as a Powertrain Engineer in Raftar Formula Racing, IIT Madras’ Formula 
 
 <div class="row">
   <div class="col-md-4">
-    <img src="/assets/img/pors/raftar1.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/raftar1.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/raftar2.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/raftar2.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/raftar3.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/raftar3.jpg" class="img-fluid mb-3">
   </div>
 </div>
