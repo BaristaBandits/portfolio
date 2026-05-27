@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS Electrical Engineering at Stanford • B.Tech EE at IIT Madras • Machine Learning • Information Theory • Optimization
+subtitle: MS EE at Stanford • B.Tech EE at IIT Madras • Machine Learning • Information Theory • Optimization
 
 profile:
   align: right
@@ -31,8 +31,8 @@ Hi! I'm Swathi, an MS student in Electrical Engineering at Stanford University. 
 
 My interests lie broadly in machine learning, artificial intelligence, optimization, and information theory. I enjoy working on research-driven projects that combine strong mathematical foundations with practical impact, especially in generative AI and multimodal systems.
 
-Over the years, I’ve worked on projects involving neural-network-based text compression, generative models, image synthesis, and audio generation. I’m particularly interested in building systems that are both intelligent and creative, bridging ideas from machine learning, signal processing, and computation.
+Over the years, I’ve worked on projects involving mechanistic interpretability, neural-network-based text compression, generative models, image synthesis, and audio generation. I’m particularly interested in building systems that are both intelligent and creative, bridging ideas from machine learning, signal processing, and computation.
 
-Beyond academics and research, I enjoy music, design, and performing arts. I love exploring the intersection of technology and creativity — whether through AI-generated media, fusion music, or human-centered AI experiences.
+Beyond academics and research, I enjoy music, design, and performing arts. I love to travel and explore differenct cultures and cuisines. 
 
 Feel free to explore my projects, publications, and blog, or connect with me through GitHub and LinkedIn!
