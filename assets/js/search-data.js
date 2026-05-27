@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/projects/";
           },
+        },{id: "nav-positions-of-responsibility",
+          title: "Positions of Responsibility",
+          description: "Leadership roles, engineering teams, mentoring, and student communities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/pors/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
