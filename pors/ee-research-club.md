@@ -38,12 +38,12 @@ Part of the EE Research Club at IIT Madras, helping cultivate a strong undergrad
 
 <div class="row">
   <div class="col-md-4">
-    <img src="/assets/img/pors/eerc1.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/eerc1.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/eerc2.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/eerc2.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/eerc3.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/eerc3.jpg" class="img-fluid mb-3">
   </div>
 </div>
