@@ -38,12 +38,12 @@ Served as a Project Lead in the AI Club at the Center for Innovation, IIT Madras
 
 <div class="row">
   <div class="col-md-4">
-    <img src="/assets/img/pors/ai1.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/ai1.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/ai2.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/ai2.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/ai3.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/ai3.jpg" class="img-fluid mb-3">
   </div>
 </div>
