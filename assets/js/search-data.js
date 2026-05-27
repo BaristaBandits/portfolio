@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/projects/";
           },
-        },{id: "nav-positions-of-responsibility",
-          title: "Positions of Responsibility",
+        },{id: "nav-pors",
+          title: "PoRs",
           description: "Leadership roles, engineering teams, mentoring, and student communities.",
           section: "Navigation",
           handler: () => {
