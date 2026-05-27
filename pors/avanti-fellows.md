@@ -36,12 +36,12 @@ Worked as a mentor at Avanti Fellows, supporting students from underserved backg
 
 <div class="row">
   <div class="col-md-4">
-    <img src="/assets/img/pors/avanti1.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/avanti1.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/avanti2.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/avanti2.jpg" class="img-fluid mb-3">
   </div>
   <div class="col-md-4">
-    <img src="/assets/img/pors/avanti3.jpg" class="img-fluid rounded mb-3">
+    <img src="/assets/img/pors/avanti3.jpg" class="img-fluid mb-3">
   </div>
 </div>
