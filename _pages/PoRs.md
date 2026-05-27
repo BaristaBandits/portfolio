@@ -21,7 +21,7 @@ horizontal: false
         <p class="card-text">
           Led a 40-member student research initiative focused on AI-powered music generation and interdisciplinary innovation.
         </p>
-        <a href="/pors/ai-club/" class="btn btn-outline-primary btn-sm">Read More</a>
+        <a href="../pors/ai-club/" class="btn btn-outline-primary btn-sm">Read More</a>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ horizontal: false
         <p class="card-text">
           Organized research-oriented events, talks, and community activities to foster scientific thinking among students.
         </p>
-        <a href="/pors/ee-research-club/" class="btn btn-outline-primary btn-sm">Read More</a>
+        <a href="../pors/ee-research-club/" class="btn btn-outline-primary btn-sm">Read More</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ horizontal: false
         <p class="card-text">
           Worked on EV circuitry and low-voltage subsystems for IIT Madras’ Formula Student electric race car.
         </p>
-        <a href="/pors/raftar-formula-racing/" class="btn btn-outline-primary btn-sm">Read More</a>
+        <a href="../pors/raftar-formula-racing/" class="btn btn-outline-primary btn-sm">Read More</a>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@ horizontal: false
         <p class="card-text">
           Mentored underprivileged students preparing for IIT-JEE through one-on-one academic guidance.
         </p>
-        <a href="/pors/avanti-fellows/" class="btn btn-outline-primary btn-sm">Read More</a>
+        <a href="../pors/avanti-fellows/" class="btn btn-outline-primary btn-sm">Read More</a>
       </div>
     </div>
   </div>
