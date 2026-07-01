@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Powertrain Engineer – Raftar Formula Racing
-permalink: /pors/raftar-formula-racing/
+permalink: /raftar-formula-racing/
 ---
 
 <div class="row align-items-start">
