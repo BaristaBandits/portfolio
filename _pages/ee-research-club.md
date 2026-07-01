@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Core Member – EE Research Club
-permalink: /pors/ee-research-club/
+permalink: /ee-research-club/
 ---
 
 <div class="row align-items-start">
