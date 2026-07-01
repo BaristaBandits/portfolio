@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mentor – Avanti Fellows
-permalink: /pors/avanti-fellows/
+permalink: /avanti-fellows/
 ---
 
 <div class="row align-items-start">
