@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Lead – AI Club
-permalink: /pors/ai-club/
+permalink: /ai-club/
 ---
 
 <div class="row align-items-start">
