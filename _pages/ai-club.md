@@ -6,44 +6,54 @@ permalink: /ai-club/
 
 <div class="row align-items-start">
 
-<div class="col-md-7">
+  <div class="col-md-7">
 
-# Project Lead – AI Club
+    <h1>Project Lead – AI Club</h1>
 
-Served as a Project Lead in the AI Club at the Center for Innovation, IIT Madras. Led a multidisciplinary team working on controllable AI music generation and represented the club during institute-wide events and demonstrations.
+    <p>
+      Served as a Project Lead in the AI Club at the Center for Innovation, IIT Madras.
+      Led a multidisciplinary team working on controllable AI music generation and
+      represented the club during institute-wide events and demonstrations.
+    </p>
 
-## Website
+    <h2>Website</h2>
 
-[AI Club, CFI IIT Madras](https://www.aiclubcfi.com/)
+    <p>
+      <a href="https://www.aiclubcfi.com/" target="_blank">
+        AI Club, CFI IIT Madras
+      </a>
+    </p>
 
-## Responsibilities
+    <h2>Responsibilities</h2>
 
-- Led a team of 40 students across research and implementation tracks
-- Coordinated development of AI-powered fusion music generation systems
-- Guided juniors in machine learning workflows and experimentation
-- Organized technical discussions and collaborative development sessions
+    <ul>
+      <li>Led a team of 40 students across research and implementation tracks.</li>
+      <li>Coordinated development of AI-powered fusion music generation systems.</li>
+      <li>Guided juniors in machine learning workflows and experimentation.</li>
+      <li>Organized technical discussions and collaborative development sessions.</li>
+    </ul>
 
-## Highlights
+    <h2>Highlights</h2>
 
-- Presented projects during IIT Madras Open House
-- Attracted 500+ visitors and media coverage
-- Contributed to research resulting in an arXiv publication
-- Fostered interdisciplinary collaboration between AI and music
+    <ul>
+      <li>Presented projects during IIT Madras Open House.</li>
+      <li>Attracted 500+ visitors and media coverage.</li>
+      <li>Contributed to research resulting in an arXiv publication.</li>
+      <li>Fostered interdisciplinary collaboration between AI and music.</li>
+    </ul>
 
-</div>
-
----
-
-## Gallery
-
-<div class="row">
-  <div class="col-md-4">
-    <img src="/assets/img/pors/ai1.jpg" class="img-fluid mb-3">
   </div>
-  <div class="col-md-4">
-    <img src="/assets/img/pors/ai2.jpg" class="img-fluid mb-3">
+
+  <div class="col-md-5">
+
+    <h2>Gallery</h2>
+
+    <img src="{{ '/assets/img/pors/ai1.jpg' | relative_url }}" class="img-fluid rounded mb-3" alt="AI Club 1">
+
+    <img src="{{ '/assets/img/pors/ai2.jpg' | relative_url }}" class="img-fluid rounded mb-3" alt="AI Club 2">
+
+    <img src="{{ '/assets/img/pors/ai3.jpg' | relative_url }}" class="img-fluid rounded mb-3" alt="AI Club 3">
+
   </div>
-  <div class="col-md-4">
-    <img src="/assets/img/pors/ai3.jpg" class="img-fluid mb-3">
-  </div>
+
 </div>
