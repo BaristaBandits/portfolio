@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/pors/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/portfolio/cv/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Courses for which I have served as a Teaching Assistant.",
@@ -420,6 +413,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-joinining-fujitsu-ai-research-lab-for-summer-internship",
           title: 'Joinining Fujitsu AI research lab for Summer internship !',
+          description: "",
+          section: "News",},{id: "news-emnlp-2026-paper-accepted-realm-workshop-from-trajectories-to-workflows",
+          title: 'EMNLP 2026 Paper Accepted (REALM Workshop) : From Trajectories to Workflows',
+          description: "",
+          section: "News",},{id: "news-neurips-2026-paper-accepted-prigm-workshop-the-geometry-of-language-model-logits",
+          title: 'NeurIPS 2026 Paper Accepted (PriGM Workshop) : The Geometry of Language Model Logits...',
           description: "",
           section: "News",},{id: "projects-bachelor-39-s-thesis",
           title: 'Bachelor&amp;#39;s Thesis',
