@@ -12,4 +12,4 @@ nav_order: 6
   </a>
 </p>
 
-{% include pdf.liquid path="assets/pdf/cv.pdf" %}
+{% include pdf.liquid path="assets/pdf/resume.pdf" %}
