@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS EE at Stanford • B.Tech EE at IIT Madras • Machine Learning • Information Theory • Optimization
+subtitle: MS EE at Stanford • B.Tech EE at IIT Madras • Theoretical ML • LLMs • Information Theory
 
 profile:
   align: right
@@ -27,12 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Swathi, an MS student in Electrical Engineering at Stanford University. Previously, I completed my BTech in Electrical Engineering (Honors) with a Minor in Computing from IIT Madras.
+Hi! I'm **Swathi Shree Narashiman**, an M.S. student in Electrical Engineering at [Stanford University](https://ee.stanford.edu/), with a background in Electrical Engineering and Computing from [IIT Madras](https://www.iitm.ac.in/).
 
-My interests lie broadly in machine learning, artificial intelligence, optimization, and information theory. I enjoy working on research-driven projects that combine strong mathematical foundations with practical impact, especially in generative AI and multimodal systems.
+My research interests include **theoretical machine learning, mechanistic interpretability, information theory, optimization, and language models**. I'm currently working with **[Prof. Amin Saberi](https://profiles.stanford.edu/amin-saberi)** at Stanford on inference memory models.
 
-Over the years, I’ve worked on projects involving mechanistic interpretability, neural-network-based text compression, generative models, image synthesis, and audio generation. I’m particularly interested in building systems that are both intelligent and creative, bridging ideas from machine learning, signal processing, and computation.
+Previously, I worked with **Ishan Jindal and Mahesh Chandran** at Fujitsu Research on LLM agents and procedural memory, and with **[Prof. Nicolas Flammarion](https://people.epfl.ch/317566?lang=en)** and **[Prof. Haitham Al Hassanieh](https://people.epfl.ch/haitham.alhassanieh)** at EPFL on in-context learning and radar-based 3D reconstruction, respectively.
 
-Beyond academics and research, I enjoy music, design, and performing arts. I love to travel and explore differenct cultures and cuisines. 
+**Bachelor's Thesis:** Under the supervision of **[Prof. Andrew Thangaraj](https://www.ee.iitm.ac.in/andrew/)** at IIT Madras, I worked on *semantic smoothing for language models via distribution estimation and embeddings*, combining theoretical analysis with empirical evaluation to improve language-model perplexity.
 
-Feel free to explore my projects, publications, and blog, or connect with me through GitHub and LinkedIn!
+Beyond research, I enjoy music, travelling, and the performing arts.
