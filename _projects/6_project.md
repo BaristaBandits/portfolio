@@ -5,6 +5,8 @@ description: 3D Shape Reconstruction using Commercial mmWave Radars
 img: assets/img/6_proj.png
 importance: 6
 category: research
+research_area: Radar & 3D vision
+research_year: 2025
 related_publications: true
 ---
 

@@ -5,13 +5,14 @@ description: Undergraduate research project studying hallucinations, adversarial
 img: assets/img/3_proj.png
 importance: 2
 category: research
+research_area: LLM robustness
 related_publications: false
 giscus_comments: false
 ---
 
 This undergraduate research project explores hallucinations and adversarial vulnerabilities in large language models (LLMs) through the lens of interpretability, robustness, and information theory. The work was done under Prof. Nambi Seshadri and co-advised by Prof. Srikrishna Bhashyam
 
-Hallucinations in LLMs refer to outputs that are fabricated, factually incorrect, or unsupported by existing knowledge. While prior work has largely focused on defining metrics to detect hallucinations, this project investigates the *internal mechanisms* that lead to such behaviors by analyzing the response of white-box transformer models to adversarial perturbations applied directly in logit space.
+Hallucinations in LLMs refer to outputs that are fabricated, factually incorrect, or unsupported by existing knowledge. While prior work has largely focused on defining metrics to detect hallucinations, this project investigates the _internal mechanisms_ that lead to such behaviors by analyzing the response of white-box transformer models to adversarial perturbations applied directly in logit space.
 
 The work studies:
 
@@ -21,7 +22,7 @@ The work studies:
 - The relationship between greedy decoding and nucleus sampling
 - Interpretability of transformer behavior under adversarial conditions
 
-A central perspective of this project is drawing parallels between transformer-based language models and classical communication systems. The LLM is conceptualized as a *noisy communication channel*, where perturbations in internal representations can lead to corrupted output generation, analogous to errors in digital communication systems.
+A central perspective of this project is drawing parallels between transformer-based language models and classical communication systems. The LLM is conceptualized as a _noisy communication channel_, where perturbations in internal representations can lead to corrupted output generation, analogous to errors in digital communication systems.
 
 This framing enables the study of hallucinations through concepts inspired by:
 

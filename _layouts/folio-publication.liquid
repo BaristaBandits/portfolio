@@ -1,0 +1,50 @@
+---
+---
+<article class="folio-paper" data-filter-item data-topic="{{ entry.abbr | escape }}">
+  <div class="folio-paper-meta">
+    <span class="folio-tag">{{ entry.abbr | escape }}</span>
+    <span>
+      {{- entry.year -}}
+      {%- if entry.eprint %} · Preprint{% elsif entry.booktitle %} · Conference / workshop{% endif -%}
+    </span>
+  </div>
+  <h3>
+    <a href="{{ entry.url | escape }}">{{ entry.title }}</a>
+  </h3>
+  <p class="folio-authors">
+    {% for author in entry.author_array %}
+      {% if author.last contains 'Narashiman' -%}
+        <strong>
+          {{- author.first }}
+          {{ author.last -}}
+        </strong>
+      {%- else -%}
+        {{- author.first }}
+        {{ author.last -}}
+      {%- endif -%}
+      {%- unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+  {% if entry.booktitle %}
+    <p class="folio-venue">{{ entry.booktitle }}</p>
+  {% endif %}
+  <div class="folio-paper-actions">
+    <a class="folio-link" href="{{ entry.url | escape }}">
+      {%- if entry.eprint %}Read preprint{% else %}Read paper{% endif %}
+      <span aria-hidden="true">↗</span></a
+    >
+    {% if entry.code -%}
+      <a class="folio-link" href="{{ entry.code | escape }}">Code <span aria-hidden="true">↗</span></a>
+    {%- endif %}
+  </div>
+  {% if entry.abstract %}
+    <details>
+      <summary>Abstract</summary>
+      <p>{{ entry.abstract }}</p>
+    </details>
+  {% endif %}
+  <details>
+    <summary>Cite this work</summary>
+    <pre><code>{{ entry.bibtex | hideCustomBibtex | escape }}</code></pre>
+  </details>
+</article>

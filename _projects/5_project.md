@@ -5,6 +5,8 @@ description: Fine-grained Control over Music Generation with Activation Steering
 img: assets/img/5_proj.png
 importance: 5
 category: research
+research_area: Music & generative AI
+research_year: 2025
 related_publications: true
 ---
 

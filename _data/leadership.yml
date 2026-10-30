@@ -1,0 +1,28 @@
+- title: AI Club
+  role: Project Lead
+  theme: AI meets music
+  description: Led a multidisciplinary team exploring controllable music generation, connecting research, experimentation, and live demonstrations.
+  highlight: 40 students · 500+ Open House visitors
+  image: /assets/img/pors/ai_club_cover.jpg
+  url: /ai-club/
+- title: EE Research Club
+  role: Core Member
+  theme: Making room for curiosity
+  description: Brought students and researchers together through research socials, technical talks, and professor interviews at IIT Madras.
+  highlight: A 30-member research community
+  symbol: Discuss. Discover.
+  url: /ee-research-club/
+- title: Raftar Formula Racing
+  role: Powertrain Engineer
+  theme: Engineering beyond the classroom
+  description: Designed and tested low-voltage EV circuitry and worked across teams to integrate electronics for an electric Formula Student race car.
+  highlight: Team runner-up · Formula Bharat 2024
+  image: /assets/img/pors/raftar_cover.jpg
+  url: /raftar-formula-racing/
+- title: Avanti Fellows
+  role: Mentor
+  theme: Learning, passed forward
+  description: Supported students from underserved backgrounds with one-on-one IIT-JEE mentorship, mathematics and physics guidance, and study planning.
+  highlight: One-on-one academic mentorship
+  symbol: Learn. Share.
+  url: /avanti-fellows/

@@ -4,12 +4,6 @@ title: Core Member – EE Research Club
 permalink: /ee-research-club/
 ---
 
-<div class="row align-items-start">
-
-<div class="col-md-7">
-
-# Core Member – EE Research Club
-
 Part of the EE Research Club at IIT Madras, helping cultivate a strong undergraduate research culture through events, discussions, and outreach activities.
 
 ## Website
@@ -29,21 +23,4 @@ Part of the EE Research Club at IIT Madras, helping cultivate a strong undergrad
 - Conducted events focused on scientific communication and exploration
 - Facilitated interactions between students and researchers
 
-
-</div>
-
----
-
-## Gallery
-
-<div class="row">
-  <div class="col-md-4">
-    <img src="/assets/img/pors/eerc1.jpg" class="img-fluid mb-3">
-  </div>
-  <div class="col-md-4">
-    <img src="/assets/img/pors/eerc2.jpg" class="img-fluid mb-3">
-  </div>
-  <div class="col-md-4">
-    <img src="/assets/img/pors/eerc3.jpg" class="img-fluid mb-3">
-  </div>
-</div>
+[Back to leadership]({{ '/pors/' | relative_url }}).

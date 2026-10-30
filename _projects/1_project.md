@@ -5,12 +5,14 @@ description: Semantic Smoothing for Language Models via Distribution Estimation 
 img: assets/img/1_proj.png
 importance: 1
 category: research
+research_area: Language models
+research_year: 2026
 related_publications: true
 ---
 
 This project was completed as my Bachelor's Thesis at IIT Madras under the guidance of Prof. Andrew Thangaraj.
 
-The thesis explores *semantic smoothing* techniques for language models using probabilistic distribution estimation and embedding-aware methods. The work studies how semantic relationships between tokens can be incorporated into classical smoothing frameworks to improve generalization and prediction quality in language models.
+The thesis explores _semantic smoothing_ techniques for language models using probabilistic distribution estimation and embedding-aware methods. The work studies how semantic relationships between tokens can be incorporated into classical smoothing frameworks to improve generalization and prediction quality in language models.
 
 The project combines ideas from:
 
@@ -31,11 +33,11 @@ Traditional language modeling methods rely heavily on frequency-based smoothing 
 
 - <a href="https://arxiv.org/abs/2605.07994" target="_blank">arXiv Paper</a>
 - <a href="{{ '/assets/pdf/bachelor_thesis_report.pdf' | relative_url }}" target="_blank">
-  Thesis Report
-</a>
+    Thesis Report
+  </a>
 - <a href="{{ '/assets/pdf/bachelor_thesis_presentation.pdf' | relative_url }}" target="_blank">
-  Presentation Slides
-</a>
+    Presentation Slides
+  </a>
 
 ### Highlights
 

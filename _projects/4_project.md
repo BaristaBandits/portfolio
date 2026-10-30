@@ -5,6 +5,8 @@ description: Neural Network-Enhanced Lossless Text Compression
 img: assets/img/4_proj.png
 importance: 4
 category: research
+research_area: Compression
+research_year: 2024
 related_publications: true
 ---
 

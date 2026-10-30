@@ -1,0 +1,20 @@
+# Add entries beneath each collection's items list when documents are ready.
+# An item needs title, description, and url (e.g. /assets/resources/notes.pdf).
+- title: Undergraduate notes
+  label: 01 / Learn
+  description: A home for my undergraduate course notes and study materials from electrical engineering and computing.
+  items: []
+- title: Graduate applications
+  label: 02 / Take the next step
+  description: A place to share my graduate application materials and reflections on the application process.
+  items: []
+- title: Research & project resources
+  label: 03 / Explore
+  description: Papers, presentations, and demos connected to my research projects.
+  items:
+    - title: Research project collection
+      description: Project write-ups with links to their papers and available supporting materials.
+      url: /projects/
+    - title: Controllable music generation
+      description: The demo accompanying our work on activation steering for music generation.
+      url: https://controllable-genre-fusion.github.io/

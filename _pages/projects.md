@@ -1,65 +1,41 @@
 ---
-layout: page
+layout: folio
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+eyebrow: 02 / The workbench
+headline: From questions to experiments.
+description: A closer look at the systems, experiments, and collaborations behind my research.
 nav: true
 nav_order: 3
-display_categories: research
-horizontal: false
+endnote: Theory meets the workbench.
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+<div data-folio-filter>
+  <div class="folio-toolbar" hidden data-filter-controls>
+    <label class="folio-search">Explore the workbench
+      <input type="search" data-filter-search placeholder="Search projects and research areas…" autocomplete="off">
+    </label>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+  <p class="folio-result" data-filter-count role="status" aria-live="polite"></p>
+  <div class="folio-project-grid">
+    {% assign research_projects = site.projects | where: 'category', 'research' | sort: 'importance' %}
+    {% for project in research_projects %}
+      <article class="folio-project" data-filter-item>
+        <a class="folio-project-image{% unless project.img %} folio-project-typographic{% endunless %}" href="{{ project.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          {% if project.img %}
+            <img src="{{ project.img | relative_url }}" alt="" loading="lazy">
+          {% else %}
+            <span>{{ project.visual | escape }}</span>
+          {% endif %}
+        </a>
+        <div class="folio-project-body">
+          <p class="folio-eyebrow">{{ project.research_area | default: 'Research' | escape }}{% if project.research_year %} / {{ project.research_year }}{% endif %}</p>
+          <h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
+          <p>{{ project.description | escape }}</p>
+          <a class="folio-link" href="{{ project.url | relative_url }}">Explore project <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
     {% endfor %}
   </div>
-  {% endif %}
-{% endif %}
+  <p class="folio-empty" data-filter-empty hidden>No projects match that search. Try a different research area.</p>
 </div>

@@ -1,74 +1,29 @@
 ---
-layout: page
-title: PoRs
+layout: folio
+title: leadership
 permalink: /pors/
-description: Leadership roles, engineering teams, mentoring, and student communities.
+eyebrow: 03 / Positions of responsibility
+headline: Good work takes people.
+description: Building teams, sharing what I know, and learning from the communities around me.
 nav: true
 nav_order: 4
-horizontal: false
+endnote: A little of what happens beyond the papers.
 ---
-# Positions of Responsibility
 
-<div class="projects">
-
-<div class="row row-cols-1 row-cols-md-2 g-4">
-
-  <!-- POR 1 -->
-  <div class="col">
-    <div class="card h-100 hoverable">
-      <img src="{{ '/assets/img/pors/ai_club_cover.jpg' | relative_url }}" class="card-img-top" alt="AI Club">
-      <div class="card-body">
-        <h3 class="card-title">Project Lead – AI Club</h3>
-        <p class="card-text">
-          Led a 40-member student research initiative focused on AI-powered music generation and interdisciplinary innovation.
-        </p>
-        <a href="{{ '/ai-club/' | relative_url }}" class="btn btn-outline-primary btn-sm">Read More</a>
+<div class="folio-role-list">
+  {% for role in site.data.leadership %}
+    <article class="folio-role">
+      <div class="folio-role-visual{% unless role.image %} folio-role-type{% endunless %}">
+        {% if role.image %}<img src="{{ role.image | relative_url }}" alt="{{ role.title | escape }}" loading="lazy">{% else %}<span>{{ role.symbol }}</span>{% endif %}
       </div>
-    </div>
-  </div>
-
-  <!-- POR 2 -->
-  <div class="col">
-    <div class="card h-100 hoverable">
-      <img src="{{ '/assets/img/pors/eerc_cover.jpg' | relative_url }}" class="card-img-top" alt="EE Research Club">
-      <div class="card-body">
-        <h3 class="card-title">Core Member – EE Research Club</h3>
-        <p class="card-text">
-          Organized research-oriented events, talks, and community activities to foster scientific thinking among students.
-        </p>
-        <a href="{{ '/ee-research-club/' | relative_url }}" class="btn btn-outline-primary btn-sm">Read More</a>
+      <div class="folio-role-body">
+        <p class="folio-eyebrow">0{{ forloop.index }} / {{ role.role }}</p>
+        <h2><a href="{{ role.url | relative_url }}">{{ role.title }}</a></h2>
+        <p class="folio-role-theme">{{ role.theme }}</p>
+        <p>{{ role.description }}</p>
+        <p class="folio-highlight">{{ role.highlight }}</p>
+        <a class="folio-link" href="{{ role.url | relative_url }}">The story & contributions <span aria-hidden="true">↗</span></a>
       </div>
-    </div>
-  </div>
-
-  <!-- POR 3 -->
-  <div class="col">
-    <div class="card h-100 hoverable">
-      <img src="{{ '/assets/img/pors/raftar_cover.jpg' | relative_url }}" class="card-img-top" alt="Raftar Formula Racing">
-      <div class="card-body">
-        <h3 class="card-title">Powertrain Engineer – Raftar Formula Racing</h3>
-        <p class="card-text">
-          Worked on EV circuitry and low-voltage subsystems for IIT Madras’ Formula Student electric race car.
-        </p>
-        <a href="{{ '/raftar-formula-racing/' | relative_url }}" class="btn btn-outline-primary btn-sm">Read More</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- POR 4 -->
-  <div class="col">
-    <div class="card h-100 hoverable">
-      <img src="{{ '/assets/img/pors/avanti_cover.jpg' | relative_url }}" class="card-img-top" alt="Avanti Fellows">
-      <div class="card-body">
-        <h3 class="card-title">Mentor – Avanti Fellows</h3>
-        <p class="card-text">
-          Mentored underprivileged students preparing for IIT-JEE through one-on-one academic guidance.
-        </p>
-        <a href="{{ '/avanti-fellows/' | relative_url }}" class="btn btn-outline-primary btn-sm">Read More</a>
-      </div>
-    </div>
-  </div>
-
-</div>
-
+    </article>
+  {% endfor %}
 </div>

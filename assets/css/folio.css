@@ -1,0 +1,414 @@
+/* Scoped to the research pages so the introduction keeps its existing design. */
+.folio {
+  --folio-accent: var(--global-theme-color);
+  --folio-line: var(--global-divider-color);
+  --folio-wash: var(--global-code-bg-color);
+  color: var(--global-text-color);
+}
+.folio [hidden] {
+  display: none !important;
+}
+.folio a {
+  color: inherit;
+}
+.folio a:hover {
+  color: var(--folio-accent);
+}
+.folio a:focus-visible,
+.folio button:focus-visible,
+.folio input:focus-visible,
+.folio summary:focus-visible {
+  outline: 3px solid var(--folio-accent);
+  outline-offset: 5px;
+}
+.folio-hero {
+  padding: 2.5rem 0 3rem;
+  border-bottom: 1px solid var(--folio-line);
+  margin-bottom: 2rem;
+  position: relative;
+}
+.folio-hero::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 4px;
+  background: var(--folio-accent);
+  margin-bottom: 1.5rem;
+}
+.folio .folio-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--folio-accent);
+  margin: 0 0 1rem;
+}
+.folio-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.6rem, 6vw, 4.7rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+  max-width: 760px;
+  margin: 0 0 1.5rem;
+}
+.folio-intro {
+  max-width: 620px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+.folio .folio-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--folio-accent);
+  padding-bottom: 0.2rem;
+}
+.folio-link span {
+  margin-left: 0.6rem;
+}
+.folio-toolbar {
+  display: grid;
+  gap: 1.1rem;
+  margin-bottom: 1rem;
+}
+.folio-search {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.folio-search input {
+  width: 100%;
+  border: 1px solid var(--folio-line);
+  border-radius: 6px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  padding: 0.85rem 1rem;
+  font: inherit;
+  font-size: 0.95rem;
+}
+.folio-search input::placeholder {
+  color: var(--global-text-color);
+  opacity: 0.65;
+}
+.folio-filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.folio-filters button {
+  font: inherit;
+  font-size: 0.78rem;
+  border: 1px solid var(--folio-line);
+  background: transparent;
+  color: var(--global-text-color);
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  min-height: 40px;
+}
+.folio-filters button[aria-pressed="true"] {
+  background: var(--folio-accent);
+  border-color: var(--folio-accent);
+  color: var(--global-hover-text-color);
+}
+.folio-result {
+  font-size: 0.78rem;
+  margin: 1rem 0 2rem;
+}
+.folio-papers h2.bibliography {
+  font: 600 0.9rem/1.5 monospace;
+  color: var(--folio-accent);
+  border-top: 1px solid var(--folio-line);
+  padding-top: 1.4rem;
+  margin-top: 2.5rem;
+}
+.folio-papers ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.folio-papers ol.bibliography > li {
+  margin: 0;
+  padding: 0;
+}
+.folio-paper {
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--folio-line);
+}
+.folio-paper-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.73rem;
+  margin-bottom: 0.85rem;
+}
+.folio-tag {
+  display: inline-block;
+  border: 1px solid var(--folio-line);
+  padding: 0.25rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--folio-accent);
+}
+.folio-paper h3 {
+  font:
+    400 clamp(1.3rem, 3vw, 1.7rem)/1.4 Georgia,
+    "Times New Roman",
+    serif;
+  margin: 0 0 0.75rem;
+  max-width: 750px;
+}
+.folio-paper h3 a,
+.folio-project h2 a,
+.folio-role h2 a {
+  text-decoration: none;
+}
+.folio-authors,
+.folio-venue {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  margin: 0 0 0.5rem;
+}
+.folio-venue {
+  font-style: italic;
+}
+.folio-paper-actions {
+  display: flex;
+  gap: 1.2rem;
+  margin: 1rem 0 0.75rem;
+}
+.folio details {
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+.folio summary {
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.3rem 0;
+}
+.folio details p {
+  margin: 0.75rem 0;
+  line-height: 1.8;
+}
+.folio pre {
+  background: var(--folio-wash);
+  color: inherit;
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 0.75rem;
+  max-width: 100%;
+}
+.folio-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+.folio-project {
+  border: 1px solid var(--folio-line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  transition: transform 0.2s;
+}
+.folio-project:hover {
+  transform: translateY(-3px);
+}
+.folio-project-image {
+  display: flex;
+  aspect-ratio: 16 / 10;
+  padding: 1.2rem;
+  background: var(--folio-wash);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.folio-project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.folio .folio-project-typographic {
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 27px, var(--folio-line) 28px);
+  color: var(--folio-accent);
+  text-decoration: none;
+}
+.folio-project-typographic span {
+  font:
+    italic 2rem/1.3 Georgia,
+    serif;
+  max-width: 210px;
+}
+.folio-project-body {
+  padding: 1.5rem;
+}
+.folio-project-body .folio-eyebrow {
+  font-size: 0.65rem;
+}
+.folio-project h2 {
+  font:
+    400 1.5rem/1.35 Georgia,
+    serif;
+  margin-bottom: 0.8rem;
+}
+.folio-project p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.folio-role {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  border-bottom: 1px solid var(--folio-line);
+  padding: 2.5rem 0;
+  gap: 2.5rem;
+  align-items: center;
+}
+.folio-role:first-child {
+  padding-top: 0;
+}
+.folio-role-visual {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--folio-wash);
+}
+.folio-role-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.folio-role-type {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-image: radial-gradient(var(--folio-line) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+.folio-role-type span {
+  font:
+    italic clamp(2rem, 4vw, 3rem)/1.15 Georgia,
+    serif;
+  color: var(--folio-accent);
+}
+.folio-role h2 {
+  font:
+    400 2rem/1.2 Georgia,
+    serif;
+  margin-bottom: 0.75rem;
+}
+.folio-role-body > p {
+  line-height: 1.8;
+  font-size: 0.92rem;
+}
+.folio-role-body .folio-role-theme {
+  font-size: 1.1rem;
+}
+.folio-highlight {
+  border-left: 2px solid var(--folio-accent);
+  padding-left: 1rem;
+  font-weight: 600;
+}
+.folio-resource-section {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  border-bottom: 1px solid var(--folio-line);
+  padding: 2rem 0 3rem;
+  margin-bottom: 1rem;
+}
+.folio-resource-section h2 {
+  font:
+    400 1.9rem/1.2 Georgia,
+    serif;
+}
+.folio-resource-section p {
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+.folio-resource {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--folio-line);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 0.8rem;
+  text-decoration: none;
+}
+.folio-resource:hover {
+  border-color: var(--folio-accent);
+  text-decoration: none;
+}
+.folio-resource strong,
+.folio-resource span span {
+  display: block;
+}
+.folio-resource strong {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.folio-resource span span {
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+.folio-resource-pending {
+  padding: 1.5rem;
+  border: 1px dashed var(--folio-line);
+  border-radius: 6px;
+  background: var(--folio-wash);
+}
+.folio-resource-pending p {
+  margin: 0.8rem 0 0;
+}
+.folio-endnote {
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+.folio-endnote > span {
+  font-style: italic;
+}
+.folio-empty {
+  padding: 2rem;
+  border: 1px dashed var(--folio-line);
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .folio-hero {
+    padding-top: 1.5rem;
+  }
+  .folio-project-grid,
+  .folio-role,
+  .folio-resource-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .folio-role-visual {
+    aspect-ratio: 16 / 10;
+  }
+  .folio-role {
+    padding: 2rem 0;
+  }
+  .folio-resource-section {
+    padding-bottom: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .folio-project {
+    transition: none;
+  }
+  .folio-project:hover {
+    transform: none;
+  }
+}

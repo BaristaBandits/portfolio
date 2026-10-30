@@ -5,13 +5,15 @@ description: Research internship at EPFL on mechanistic interpretability and in-
 img: assets/img/2_proj.png
 importance: 2
 category: research
+research_area: Interpretability
+research_year: 2026
 related_publications: true
 giscus_comments: false
 ---
 
 This project was carried out during my Summer Research Internship at EPFL, where I worked on understanding the mechanisms behind in-context learning in transformer-based language models.
 
-The work focused on *induction heads* — attention heads believed to play a crucial role in enabling transformers to perform pattern matching and sequence continuation during inference. The project explored how induction heads emerge during training and how they contribute to the in-context learning abilities of large language models.
+The work focused on _induction heads_ — attention heads believed to play a crucial role in enabling transformers to perform pattern matching and sequence continuation during inference. The project explored how induction heads emerge during training and how they contribute to the in-context learning abilities of large language models.
 
 The research combined ideas from:
 
