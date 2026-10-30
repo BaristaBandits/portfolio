@@ -1,0 +1,70 @@
+// Small adjustments within the original al-folio layout.
+.simple-publications {
+  h2.bibliography {
+    color: var(--global-text-color-light);
+  }
+  .title a {
+    color: var(--global-text-color);
+  }
+  .title a:hover {
+    color: var(--global-theme-color);
+  }
+  .publication-abstract {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .publication-abstract summary {
+    cursor: pointer;
+    width: fit-content;
+  }
+  .publication-abstract p {
+    margin-top: 0.75rem;
+    line-height: 1.7;
+  }
+}
+.portfolio-project-card {
+  color: var(--global-text-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  .card-img-top {
+    height: 210px;
+    object-fit: contain;
+    background: white;
+    padding: 0.75rem;
+  }
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+.portfolio-roles {
+  .card-img-top {
+    height: 240px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 1.3rem;
+  }
+}
+.portfolio-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  border: 1px dashed var(--global-divider-color);
+  border-radius: 4px;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+}
+.portfolio-cover-placeholder {
+  min-height: 240px;
+}
+
+.project-paper-image {
+  display: block;
+  max-height: 380px;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  object-fit: contain;
+}

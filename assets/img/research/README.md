@@ -13,3 +13,5 @@ Figures are reproduced for the author’s project explanations. Images retain th
 | radar-overview.png        | https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_399/paper.pdf — page 2, Figure 1 |
 
 The arXiv HTML versions identify their license as CC BY 4.0. For the ACL and BMVC figures, refer to the original papers’ copyright notices. No synthetic experimental figures are presented as paper results.
+
+`../geometry.png` copies `logit-spectrum.png`; `../workflow.png` copies `workflow-overview.png`. These are the replaceable image paths used by the project pages.

@@ -13,7 +13,8 @@
   html = {https://arxiv.org/abs/2605.07994},
   pdf = {https://arxiv.org/pdf/2605.07994},
   selected      = {true},
-  abbr          = {Language Models}
+  abbr          = {Language Models},
+  abstract = {We propose semantic smoothing, a smoothing method for language models that uses embeddings to share statistical observations across semantically similar contexts. The starting point is a decomposition of log-perplexity that motivates smoothing as a collection of distribution-estimation problems under Kullback-Leibler (KL) loss. We then show that, under a Lipschitz-logit model for embedding-based language generation, proximity of context embeddings implies proximity of the corresponding next-word distributions in KL divergence. Combining these observations, we formulate semantic smoothing as distribution estimation in KL loss with KL-proximity side information. For $n$ samples on a $d$-symbol alphabet with a side-information distribution at KL distance $\Delta$, we give an interpolation estimator with worst-case KL risk $O(\min\{\Delta,d/n\})$, and prove a matching-order lower bound for uniform side information. We extend the estimator to multiple and empirically estimated synonymous distributions. Experiments on synthetic Markov data and WikiText-103 bigram models using Word2Vec, GloVe, and GPT-2 embeddings show that semantic smoothing consistently reduces test perplexity when applied to add-constant and Kneser–Ney estimates.}
 }
 
 @inproceedings{dangelo2026inductionheadsinterpolatengrams,
@@ -29,7 +30,8 @@
   html = {https://arxiv.org/abs/2607.02800},
   pdf = {https://arxiv.org/pdf/2607.02800},
   selected      = {true},
-  abbr          = {Language Models}
+  abbr          = {Language Models},
+  abstract = {Induction heads are attention circuits believed to underlie in-context learning in transformers, yet a precise characterization of the estimators they implement remains elusive. We study transformers trained on order-$k$ Markov chains and identify two complementary smoothing mechanisms. First, at finite attention-weight scale, the circuit implements a soft context-matching estimator: it aggregates contributions from exact and partial context matches, weighted exponentially by their overlap, and induces a data-dependent interpolation across context orders analogous to Jelinek–Mercer smoothing. Second, a beginning-of-sequence (BOS) token induces additive pseudo-counts, recovering Dirichlet-style smoothing. We construct a disentangled transformer implementing both mechanisms and show that trained transformers recover the predicted attention patterns. Across settings where pseudo-count smoothing is optimal or lower-order contexts provide structured evidence, trained transformers match or outperform classical count-based baselines. Our results bridge mechanistic interpretability of induction heads with classical statistical smoothing, revealing that transformers learn to regularize in-context estimation rather than simply count.}
 }
 
 @inproceedings{narashiman-etal-2026-trajectories,
@@ -69,7 +71,8 @@ selected      = {true},
   html = {https://arxiv.org/abs/2409.15046},
   pdf = {https://arxiv.org/pdf/2409.15046},
   selected      = {true},
-  abbr          = {Compression}
+  abbr          = {Compression},
+  abstract = {Data compression continues to evolve, with traditional information theory methods being widely used for compressing text, images, and videos. Recently, there has been growing interest in leveraging Generative AI for predictive compression techniques. This paper introduces a lossless text compression approach using a Large Language Model (LLM). The method involves two key steps: first, prediction using a dense neural network architecture, such as a transformer block; second, compressing the predicted ranks [1] with standard compression algorithms like Adaptive Huffman, LZ77, or Gzip. Extensive analysis and benchmarking against conventional information-theoretic baselines demonstrate that neural compression offers improved performance.}
 }
 
 @misc{narashiman2024chiplets,
@@ -83,7 +86,8 @@ selected      = {true},
   url           = {https://arxiv.org/abs/2406.00182},
   html = {https://arxiv.org/abs/2406.00182},
   pdf = {https://arxiv.org/pdf/2406.00182},
-  abbr          = {Autonomous Systems}
+  abbr          = {Autonomous Systems},
+  abstract = {On the advent of the slow death of Moore's law, the silicon industry is moving towards a new era of chiplets. The automotive industry is experiencing a profound transformation towards software-defined vehicles, fueled by the surging demand for automotive compute chips, expected to reach 20-22 billion by 2030. High-performance compute (HPC) chips become instrumental in meeting the soaring demand for computational power. Various strategies, including centralized electrical and electronic architecture and the innovative Chiplet Systems, are under exploration. The latter, breaking down System-on-Chips (SoCs) into functional units, offers unparalleled customization and integration possibilities. The research accentuates the crucial open Chiplet ecosystem, fostering collaboration and enhancing supply chain resilience. In this paper, we address the unique challenges that arise when attempting to leverage chiplet-based architecture to design a holistic silicon solution for the automotive industry. We propose a throughput-oriented micro-architecture for ADAS and infotainment systems alongside a novel methodology to evaluate chiplet architectures. Further, we develop in-house simulation tools leveraging the gem5 framework to simulate latency and throughput. Finally, we perform an extensive design of thermally-aware chiplet placement and develop a micro-fluids-based cooling design.}
 }
 
 @misc{narashiman2026geometrylanguagemodellogits,
@@ -99,6 +103,7 @@ selected      = {true},
       url={https://arxiv.org/abs/2610.18520},
   html = {https://arxiv.org/abs/2610.18520},
   pdf = {https://arxiv.org/pdf/2610.18520},
+  abstract = {Autoregressive language models produce, at every prediction step, a vocabulary-sized logit vector whose structure determines the conditional next-token distribution. We empirically identify that the ordered vocabulary-head logits follow a remarkably consistent log-linear relation $z_{(r)}\approx\mu-\alpha\log r.$ across prediction contexts, architectures, and scales, emerging progressively during pretraining. To our knowledge, this is the first systematic analysis of the logit geometry underlying the distributional assumptions used in the prior decoding work such as Basu et al. (2021). While controlled order-statistic baselines spanning bounded, light-tailed, and heavier-tailed distributions can largely explain the observed log-linear geometry, they do not explain the systematic shift in the slope $\alpha$: trained language models exhibit $\alpha\approx 1.4$–$1.7$, sitting well above the initialization baseline ($\alpha\approx 0.2$) . Moreover, $\alpha$ correlates with predictive performance, suggesting that it captures learned structure beyond generic extreme-value effects.}
 }
 
 @misc{panda2025musicgeneration,
@@ -113,7 +118,8 @@ selected      = {true},
   html = {https://arxiv.org/abs/2506.10225},
   pdf = {https://arxiv.org/pdf/2506.10225},
   selected      = {true},
-  abbr          = {Music AI}
+  abbr          = {Music AI},
+  abstract = {Computational Music Generation is evolving towards non-conventional styles, demanding methods that enable precise and controllable blending of diverse music elements. In this work, we present a method for fine grained control using inference-time interventions on an autoregressive generative transformer, MusicGen. Through our approach, we achieve genre control by steering the residual stream using weights of a linear probe on it. By framing activation steering as a human-controllable interaction, our work highlights how interpretable model behaviors can empower in co-creative music generation. Audio samples demonstrating our method are available on our demo page . Our implementation and additional materials are available online .}
 }
 
 @inproceedings{rfconstruct2025,
@@ -122,9 +128,9 @@ selected      = {true},
   year         = {2025},
   month        = {nov},
   booktitle    = {British Machine Vision Conference (BMVC 2025)},
-  abstract     = {RFconstruct enables 3D shape reconstruction using commercial mmWave radars for autonomous driving scenarios through radar fusion, temporal fusion, and customized encoder-decoder reconstruction models.},
   url          = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_399/paper.pdf},
   pdf = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_399/paper.pdf},
   selected     = {true},
-  abbr         = {RadarML}
+  abbr         = {RadarML},
+  abstract = {This paper presents RFconstruct, a framework that enables 3D shape reconstruction using commercial off-the-shelf (COTS) mmWave radars for self-driving scenarios. RFconstruct overcomes radar limitations of low angular resolution, specularity, and sparsity in radar point clouds through a holistic system design that addresses hardware, data processing, and machine learning challenges. The first step is fusing data captured by two radar devices that image orthogonal planes, then performing odometry-aware temporal fusion to generate denser 3D point clouds. RFconstruct then reconstructs 3D shapes of objects using a customized encoder-decoder model that does not require prior knowledge of the object’s bound box. The shape reconstruction performance of RFconstruct is compared against 3D models extracted from a depth camera equipped with a LiDAR. We show that RFconstruct can accurately generate 3D shapes of cars, bikes, and pedestrians. Check our demo video and more on our project page.}
 }

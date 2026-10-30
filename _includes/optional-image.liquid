@@ -1,0 +1,18 @@
+{% capture image_exists %}{% file_exists {{ include.path | remove_first: '/' }} %}{% endcapture %}
+{% assign image_exists = image_exists | strip %}
+{% if image_exists == 'true' %}
+  <img
+    src="{{ include.path | relative_url }}"
+    alt="{{ include.alt | escape }}"
+    class="{{ include.class | default: 'img-fluid rounded' }}"
+    loading="lazy"
+  >
+{% else %}
+  <div
+    class="portfolio-placeholder{% if include.cover %} portfolio-cover-placeholder{% endif %}"
+    role="img"
+    aria-label="{{ include.alt | escape }} — photo to be added"
+  >
+    Photo to be added
+  </div>
+{% endif %}

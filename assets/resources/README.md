@@ -1,20 +1,12 @@
-# Resource notebook
+# Resources
 
-The `/resources/` page uses `_layouts/resource-notebook.liquid`, `_data/resources.yml`, and its own stylesheet and JavaScript.
+`_pages/resources.md` contains three links. Graduate application notes and research internships live on separate pages with `nav: false` and `sitemap: false`. They are reachable from Resources, not the main navigation or navigation search.
 
-- `courses`: direct links to folders in the undergraduate course repository. These are coursework and assignments; separate lecture notes are not available yet.
-- `guide`: the consolidated graduate application guide, paraphrased from the supplied personal document. No universal score cutoffs, fixed admissions odds, or old calendar deadlines are published.
-- `checklist`: preparation steps. Progress is saved in the visitor’s browser when local storage is available; it is not sent to a server.
-- `programs`: a starting directory based on the supplied historical internship search. Official links replace old job postings. Current dates and eligibility must be checked on those websites. NCSA links to its organization homepage for further navigation, not a confirmed current internship listing.
+Internship program links are maintained in `_data/resources.yml`. The graduate application page follows the supplied personal notes; historical deadlines are not presented as current dates.
 
-The CSV download is an editable planning template with intentionally blank deadline, eligibility, and requirements fields. Regenerate it when the directory changes.
+Project images can be replaced at `assets/img/geometry.png` and `assets/img/workflow.png`. The current files come from the corresponding papers.
 
-Add future public PDFs here, then link them from the relevant section only after the files exist.
+Upload the following images when ready. Cover and gallery placeholders automatically become images on the next build:
 
-## Source material
-
-- Personal application notes: https://docs.google.com/document/d/1lJ00idsEZW9sGdfnSKxms8TkJGhBSk0AL3w0ON77WlM/edit
-- Historical research internship tracker: https://docs.google.com/spreadsheets/d/1mdDkLId4V1MKuwTIJ1etFEa6kuGisZU5pJ-6FwiMcyw/edit
-- Coursework: https://github.com/BaristaBandits/Undergrad_Courses
-
-The published guide consolidates the personal notes. The directory uses official program or organization pages instead of dated application postings; it omits personal outcomes, contact email addresses, old deadlines, and unsupported admission probabilities.
+- `assets/img/pors/avanti_cover.jpg`, `avanti1.jpg`, `avanti2.jpg`, `avanti3.jpg`
+- `assets/img/pors/eerc_cover.jpg`, `eerc1.jpg`, `eerc2.jpg`, `eerc3.jpg`
