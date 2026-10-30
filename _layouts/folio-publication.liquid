@@ -5,7 +5,7 @@
     <span class="folio-tag">{{ entry.abbr | escape }}</span>
     <span>
       {{- entry.year -}}
-      {%- if entry.eprint %} · Preprint{% elsif entry.booktitle %} · Conference / workshop{% endif -%}
+      {%- if entry.booktitle %} · Conference / workshop{% elsif entry.eprint %} · Preprint{% endif -%}
     </span>
   </div>
   <h3>
@@ -30,7 +30,7 @@
   {% endif %}
   <div class="folio-paper-actions">
     <a class="folio-link" href="{{ entry.url | escape }}">
-      {%- if entry.eprint %}Read preprint{% else %}Read paper{% endif %}
+      {%- if entry.booktitle %}Read paper{% elsif entry.eprint %}Read preprint{% else %}Read paper{% endif %}
       <span aria-hidden="true">↗</span></a
     >
     {% if entry.code -%}

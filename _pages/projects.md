@@ -32,7 +32,10 @@ endnote: Theory meets the workbench.
           <p class="folio-eyebrow">{{ project.research_area | default: 'Research' | escape }}{% if project.research_year %} / {{ project.research_year }}{% endif %}</p>
           <h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
           <p>{{ project.description | escape }}</p>
-          <a class="folio-link" href="{{ project.url | relative_url }}">Explore project <span aria-hidden="true">↗</span></a>
+          <div class="project-card-links">
+            <a class="folio-link" href="{{ project.url | relative_url }}">Explore project <span aria-hidden="true">↗</span></a>
+            {% if project.paper_url %}<a class="folio-link" href="{{ project.paper_url | escape }}">Read paper <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}

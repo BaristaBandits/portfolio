@@ -1,20 +1,155 @@
-# Add entries beneath each collection's items list when documents are ready.
-# An item needs title, description, and url (e.g. /assets/resources/notes.pdf).
-- title: Undergraduate notes
-  label: 01 / Learn
-  description: A home for my undergraduate course notes and study materials from electrical engineering and computing.
-  items: []
-- title: Graduate applications
-  label: 02 / Take the next step
-  description: A place to share my graduate application materials and reflections on the application process.
-  items: []
-- title: Research & project resources
-  label: 03 / Explore
-  description: Papers, presentations, and demos connected to my research projects.
-  items:
-    - title: Research project collection
-      description: Project write-ups with links to their papers and available supporting materials.
-      url: /projects/
-    - title: Controllable music generation
-      description: The demo accompanying our work on activation steering for music generation.
-      url: https://controllable-genre-fusion.github.io/
+courses:
+  - title: Applied Programming Lab
+    description: Python implementations, notebooks, reports, and problems covering SPICE simulation, curve fitting, beamforming, and optimization.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/Applied_Programming_Lab
+    files: 17
+  - title: Convex Optimization
+    description: Two problem sets from coursework in convex optimization.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/Convex_Optimization
+    files: 3
+  - title: Cryptography
+    description: Problem sets and coursework materials.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/Cryptography
+    files: 5
+  - title: Natural Language Processing
+    description: An information retrieval assignment with text processing code and the Cranfield dataset.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/NLP
+    files: 22
+  - title: Quantum Algorithms
+    description: Three problem sets from coursework in quantum algorithms.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/Quantum_Algorithms
+    files: 5
+  - title: Randomized Algorithms
+    description: Four problem sets and a course project report.
+    url: https://github.com/BaristaBandits/Undergrad_Courses/tree/main/Randomized_Algorithms
+    files: 7
+programs:
+  - title: IUSSTF–Viterbi
+    institution: USC
+    region: USA
+    area: Engineering research
+    url: https://iusstf.org/iusstf-viterbi-program
+  - title: Robotics Institute Summer Scholars (RISS)
+    institution: Carnegie Mellon
+    region: USA
+    area: Robotics
+    url: https://riss.ri.cmu.edu/apply/
+  - title: ICT Summer Research
+    institution: USC Institute for Creative Technologies
+    region: USA
+    area: Interactive systems
+    url: https://ict.usc.edu/careers/internships/
+  - title: SURF
+    institution: Caltech
+    region: USA
+    area: Science & engineering
+    url: https://sfp.caltech.edu/undergraduate-research/programs/surf
+  - title: Summer@EPFL
+    institution: EPFL
+    region: Switzerland
+    area: Computer science & engineering
+    url: https://summer.epfl.ch/
+  - title: Excellence in Engineering (E3)
+    institution: EPFL
+    region: Switzerland
+    area: Engineering
+    url: https://eee.epfl.ch/
+  - title: Summer Research Fellowship
+    institution: ETH Zurich
+    region: Switzerland
+    area: Computer science
+    url: https://inf.ethz.ch/studies/summer-research-fellowship.html
+  - title: RIPS
+    institution: IPAM, UCLA
+    region: USA
+    area: Applied mathematics
+    url: https://www.ipam.ucla.edu/programs/student-research-programs/
+  - title: SURF
+    institution: Purdue
+    region: USA
+    area: Engineering research
+    url: https://engineering.purdue.edu/Engr/Research/EURO/students/about-SURF
+  - title: Science Undergraduate Laboratory Internships (SULI)
+    institution: US Department of Energy laboratories
+    region: USA
+    area: Laboratory research
+    url: https://science.osti.gov/wdts/suli
+  - title: Summer Studentship
+    institution: CERN
+    region: Switzerland
+    area: Science & engineering
+    url: https://careers.cern/programmes/summer-studentship/
+  - title: Openlab Summer Student Programme
+    institution: CERN openlab
+    region: Switzerland
+    area: Computing
+    url: https://openlab.cern/education/
+  - title: Student opportunities
+    institution: NCSA, University of Illinois
+    region: USA
+    area: Scientific computing
+    url: https://www.ncsa.illinois.edu/
+  - title: Research internships
+    institution: Microsoft Research
+    region: Multiple locations
+    area: Computer science & AI
+    url: https://www.microsoft.com/en-us/research/careers/
+  - title: Summer Research Initiative (SURI)
+    institution: Arizona State
+    region: USA
+    area: Engineering research
+    url: https://students.engineering.asu.edu/graduate/research/suri/
+guide:
+  - id: direction
+    title: Start with the kind of work you want to do
+    text: "Decide what you want from graduate school: deeper technical training, a research career, or preparation for industry. Compare the research
+      component, length, and funding model of each specific degree rather than assuming every master’s or PhD works the same way."
+  - id: shortlist
+    title: Build a shortlist around fit
+    text: Start with research questions, faculty, and recent papers. Then compare curriculum, advising structure, total cost, funding, location,
+      and outcomes. Use ambitious and more attainable options to diversify the list, without assigning admissions probabilities or treating any
+      program as guaranteed.
+  - id: evidence
+    title: Make your research experience concrete
+    text: For each project, explain the problem, your contribution, the decisions you made, and what you learned when an approach failed. Keep the
+      CV concise and use project pages, code, papers, or posters to provide deeper evidence. Grades are one part of the record; avoid a universal
+      cutoff rule.
+  - id: letters
+    title: Ask people who know your work
+    text: Choose recommenders who can describe your research, coursework, teaching, or collaboration in detail. Ask early, confirm their availability,
+      and share your CV, project summaries, target programs, and deadlines. Follow each application’s instructions for the number and submission
+      of letters.
+  - id: statement
+    title: Write a specific statement of purpose
+    text: Build a clear argument connecting your past work, current questions, and reasons for choosing the program. Explain faculty or lab fit
+      using work you have actually read. Follow the program’s length and formatting instructions, and seek feedback on clarity and technical substance.
+  - id: tests
+    title: Check tests and logistics program by program
+    text: Record the current test requirements, exemptions, score reporting rules, fees, and language requirements from the official admissions
+      pages. Book only the tests you need. Keep transcripts, translations if requested, and portal instructions together.
+  - id: timeline
+    title: Work backward from your earliest deadline
+    text: First identify suitable programs and request letters. Next prepare the CV and first statement draft, handle any required tests, and collect
+      records. Leave time for feedback and tailored revisions, then verify every portal field and submission before the actual deadline. Use each
+      program’s current dates and time zone.
+checklist:
+  - id: goals
+    text: Write down your goals and preferred research areas
+  - id: fit
+    text: Create a shortlist with faculty fit and official program links
+  - id: funding
+    text: Record the cost, funding model, and eligibility of each option
+  - id: requirements
+    text: Verify current requirements, deadlines, and time zones
+  - id: letters
+    text: Confirm recommenders and share an organized briefing packet
+  - id: cv
+    text: Prepare a concise CV with evidence of your contributions
+  - id: sop
+    text: Draft and tailor the statement for each program
+  - id: records
+    text: Collect transcripts and any required test reports
+  - id: review
+    text: Get feedback and review the final application
+  - id: submit
+    text: Submit and confirm receipt of required materials
